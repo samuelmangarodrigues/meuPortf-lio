@@ -10,7 +10,7 @@ function Certificate() {
             justifyContent="center"
             flexDirection="column"
             alignItems="center"
-            background="blue.500"
+            background="white"
             opacity="80%"
             width={190}
             height={123}

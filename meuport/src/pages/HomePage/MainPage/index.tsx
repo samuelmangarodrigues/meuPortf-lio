@@ -113,7 +113,7 @@ export function HomePage() {
                     fontFamily="Raleway"
                     color="white"
                     margin={2}
-                    fontSize={[20, 20, 30, 40]}
+                    fontSize={[20, 25, 30, 40]}
                 >
                     Meus Projetos
                 </Text>
@@ -146,9 +146,9 @@ export function HomePage() {
                 <Text
                     fontFamily="Arima"
                     color="white"
-                    marginTop={1}
+                    padding={2}
                     fontSize={25}
-                >Certificado e Contatos</Text>
+                >Certifado e Contatos</Text>
                 <Flex alignItems="center" flexDirection={["column", "row"]}>
                     <Certificate />
                     <MyContact />

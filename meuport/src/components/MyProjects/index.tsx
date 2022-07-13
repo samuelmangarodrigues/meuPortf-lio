@@ -39,7 +39,7 @@ function MyProjects() {
                             <Box
                                 maxW={'445px'}
                                 w={'full'}
-                                bg={useColorModeValue('white', 'gray.900')}
+                                bg={useColorModeValue('blue.50', 'gray.900')}
                                 boxShadow={'2xl'}
                                 rounded={'md'}
                                 p={6}
@@ -89,7 +89,7 @@ function MyProjects() {
                             <Box
                                 maxW={'445px'}
                                 w={'full'}
-                                bg={useColorModeValue('white', 'gray.900')}
+                                bg={useColorModeValue('green.50', 'gray.900')}
                                 boxShadow={'2xl'}
                                 rounded={'md'}
                                 p={6}
@@ -144,7 +144,7 @@ function MyProjects() {
                             <Box
                                 maxW={'445px'}
                                 w={'full'}
-                                bg={useColorModeValue('white', 'gray.900')}
+                                bg={useColorModeValue('blue.50', 'gray.900')}
                                 boxShadow={'2xl'}
                                 rounded={'md'}
                                 p={6}
@@ -199,7 +199,7 @@ function MyProjects() {
                             <Box
                                 maxW={'445px'}
                                 w={'full'}
-                                bg={useColorModeValue('white', 'gray.900')}
+                                bg={useColorModeValue('pink.50', 'gray.900')}
                                 boxShadow={'2xl'}
                                 rounded={'md'}
                                 p={6}

@@ -1,3 +1,14 @@
+# Esse é meu portfólio o intuito é mostrar um pouco sobre mim, alguns de meus projetos e tecnologias que uso para desenvolvimento👨‍💻
+
+# Tecnologias: 
+Aplicação desenvolvida em Typescript, framework React.
+
+### `Bibliotecas utilizadas:`
+Chakra Ui \
+react-Icons \
+react-responsive-carousel \
+typewriter-effect 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -4,13 +4,13 @@ export const Outlook = styled.a`
     width: 40px;
     text-align: center;
     border-radius: 100%;
-    background-color: darkblue;
+    background-color: darkred;
     color: gray;
     margin: 5px 5px 5px 5px;
     border: none;
     cursor: pointer;
     :hover {
-        background-color: blue;
+        background-color: red;
         transition: 0.5s;
         color: white;
     }

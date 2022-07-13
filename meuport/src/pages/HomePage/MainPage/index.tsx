@@ -7,7 +7,7 @@ import Header from "../../../components/Header";
 import LearnedTechs from "../../../components/LearnedTechs";
 import MyContact from "../../../components/MyContact";
 import MyProjects from "../../../components/MyProjects";
-import MyTechs from "../Techs";
+import MyTechs from "../../../components/Techs/index";
 import { Hr } from "./styles";
 
 export function HomePage() {
@@ -143,6 +143,12 @@ export function HomePage() {
                 flexDirection="column"
                 marginTop={5}
             >
+                <Text
+                    fontFamily="Arima"
+                    color="white"
+                    marginTop={1}
+                    fontSize={25}
+                >Certificado e Contatos</Text>
                 <Flex alignItems="center" flexDirection={["column", "row"]}>
                     <Certificate />
                     <MyContact />

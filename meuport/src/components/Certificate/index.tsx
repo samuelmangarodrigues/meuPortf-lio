@@ -1,21 +1,20 @@
-import { Box, Flex, Img, Link } from "@chakra-ui/react";
+import { Box, Flex, Img, Link, Text } from "@chakra-ui/react";
 import { BiMedal } from "react-icons/bi";
-
 import { Image } from "./styles";
 
 function Certificate() {
     return (
         <Flex
-            boxShadow="xl"
+            boxShadow="2xl"
             id="certificate"
             justifyContent="center"
             flexDirection="column"
             alignItems="center"
-            background="white"
+            background="blue.500"
             opacity="80%"
-            width={150}
+            width={190}
             height={123}
-            padding={4}
+            padding={8}
             marginTop={["2", "0"]}
             borderRadius={10}
         >
@@ -27,7 +26,6 @@ function Certificate() {
                 fontFamily="Oswald"
                 color="black"
             >
-                <BiMedal size={25} />
             </Box>
 
             <Image>
@@ -42,6 +40,16 @@ function Certificate() {
                     />
                 </Link>
             </Image>
+            <Text
+                fontFamily="Arima"
+                fontWeight="bold"
+                fontSize={12}
+                display="flex"
+                alignItems="center"
+                >
+                Front End Developer
+                <BiMedal color="yellow" size={15}/>
+            </Text>
         </Flex>
     );
 }

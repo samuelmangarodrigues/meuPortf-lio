@@ -7,6 +7,7 @@ import {
     TabPanels,
     Tabs,
     Text,
+    useColorModeValue,
 } from "@chakra-ui/react";
 import { AiFillCode } from "react-icons/ai";
 import { BsGithub, BsRecycle } from "react-icons/bs";
@@ -21,8 +22,8 @@ function MyProjects() {
             <Tabs
                 isFitted
                 variant="enclosed"
-                color="white"
-                bg="blackAlpha.500"
+                color="black"
+                bg="white"
                 borderRadius={8}
                 width={["300px", "350px", "400px", "600px"]}
             >
@@ -36,15 +37,17 @@ function MyProjects() {
                     <TabPanel>
                         <Flex justifyContent="center" margin={17}>
                             <Box
-                                background="blackAlpha.700"
-                                _hover={{
-                                    bg: "black",
-                                    transition: "0.5s",
-                                }}
+                                maxW={'445px'}
+                                w={'full'}
+                                bg={useColorModeValue('white', 'gray.900')}
+                                boxShadow={'2xl'}
+                                rounded={'md'}
+                                p={6}
+                                overflow={'hidden'}                              
                                 alignItems="center"
                                 display="flex"
                                 flexDirection="column"
-                                color="white"
+                                color="black"
                                 textAlign="center"
                                 alignSelf="center"
                                 width={320}
@@ -84,15 +87,17 @@ function MyProjects() {
                     <TabPanel>
                         <Flex color="white" justifyContent="center" margin={17}>
                             <Box
-                                background="blackAlpha.700"
-                                _hover={{
-                                    bg: "black",
-                                    transition: "0.5s",
-                                }}
+                                maxW={'445px'}
+                                w={'full'}
+                                bg={useColorModeValue('white', 'gray.900')}
+                                boxShadow={'2xl'}
+                                rounded={'md'}
+                                p={6}
+                                overflow={'hidden'}          
                                 alignItems="center"
                                 display="flex"
                                 flexDirection="column"
-                                color="white"
+                                color="black"
                                 textAlign="center"
                                 alignSelf="center"
                                 borderRadius={5}
@@ -137,15 +142,17 @@ function MyProjects() {
                     <TabPanel>
                         <Flex color="white" justifyContent="center" margin={17}>
                             <Box
-                                background="blackAlpha.700"
-                                _hover={{
-                                    bg: "black",
-                                    transition: "0.5s",
-                                }}
+                                maxW={'445px'}
+                                w={'full'}
+                                bg={useColorModeValue('white', 'gray.900')}
+                                boxShadow={'2xl'}
+                                rounded={'md'}
+                                p={6}
+                                overflow={'hidden'}           
                                 alignItems="center"
                                 display="flex"
                                 flexDirection="column"
-                                color="white"
+                                color="black"
                                 width={320}
                                 textAlign="center"
                                 alignSelf="center"
@@ -162,7 +169,7 @@ function MyProjects() {
                                     <ProjectsTechs>Express</ProjectsTechs>
                                     <ProjectsTechs>Postgres</ProjectsTechs>
                                 </Flex>
-                                <IoMdBoat size={30} color="white" />
+                                <IoMdBoat size={30} color="blue" />
                                 <Title>Rent boats</Title>
                                 <Text margin={5} fontSize={20}>
                                     Essa aplicação tem como objetivo
@@ -190,15 +197,17 @@ function MyProjects() {
                     <TabPanel>
                         <Flex color="white" justifyContent="center" margin={17}>
                             <Box
-                                background="blackAlpha.700"
-                                _hover={{
-                                    bg: "black",
-                                    transition: "0.5s",
-                                }}
+                                maxW={'445px'}
+                                w={'full'}
+                                bg={useColorModeValue('white', 'gray.900')}
+                                boxShadow={'2xl'}
+                                rounded={'md'}
+                                p={6}
+                                overflow={'hidden'}           
                                 alignItems="center"
                                 display="flex"
                                 flexDirection="column"
-                                color="white"
+                                color="black"
                                 textAlign="center"
                                 alignSelf="center"
                                 borderRadius={5}

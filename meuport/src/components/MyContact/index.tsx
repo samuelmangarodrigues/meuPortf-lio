@@ -1,7 +1,7 @@
 import { Flex, Text } from "@chakra-ui/react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
-import { SiMicrosoftoutlook } from "react-icons/si";
+import {MdEmail} from "react-icons/md"
 
 import { Outlook, LinkeDIn, Phone } from "./styles";
 
@@ -41,7 +41,7 @@ function MyContact() {
                         padding={2}
                         justifyContent="center"
                     >
-                        <SiMicrosoftoutlook size={20} />
+                        <MdEmail size={20} />
                     </Flex>
                 </Outlook>
                 <Phone

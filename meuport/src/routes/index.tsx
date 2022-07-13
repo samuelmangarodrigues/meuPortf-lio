@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { Route, Switch } from "react-router-dom";
 
 import { HomePage } from "../pages/HomePage/MainPage";

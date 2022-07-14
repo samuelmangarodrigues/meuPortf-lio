@@ -4,15 +4,15 @@ export const Outlook = styled.a`
     width: 40px;
     text-align: center;
     border-radius: 100%;
-    background-color: darkred;
-    color: gray;
     margin: 5px 5px 5px 5px;
     border: none;
     cursor: pointer;
-    :hover {
-        background-color: red;
-        transition: 0.5s;
-        color: white;
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+    :hover{
+        background: darkred;
+        transition: 0.2s;
     }
 `;
 
@@ -21,26 +21,25 @@ export const LinkeDIn = styled.a`
     border-radius: 100%;
     background-color: darkblue;
     margin: 5px 5px 5px 5px;
-    color: gray;
     border: none;
-    :hover {
-        background-color: blue;
-        transition: 0.5s;
-        color: white;
+    background-color: blue;
+    color: white;
+    :hover{
+        background: darkblue;
+        transition: 0.2s;
     }
 `;
 export const Phone = styled.a`
     width: 40px;
     border-radius: 100%;
-    background-color: darkgreen;
-    color: gray;
     margin: 5px 5px 5px 5px;
     border: none;
     cursor: pointer;
-    :hover {
-        background-color: green;
-        transition: 0.5s;
-        color: white;
+    background-color: green;
+    color: white;
+    :hover{
+        background: darkgreen;
+        transition: 0.2s;
     }
 `;
 

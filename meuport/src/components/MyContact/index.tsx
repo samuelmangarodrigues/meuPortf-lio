@@ -1,4 +1,4 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Text} from "@chakra-ui/react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import {MdEmail} from "react-icons/md"
@@ -10,23 +10,16 @@ function MyContact() {
         <Flex
             id="contacts"
             flexDirection="column"
-            background="white"
             opacity="80%"
             alignItems="center"
-            marginTop={12}
             borderRadius={4}
             alignSelf="center"
-            margin={8}
-            padding={5}
         >
             <Text
                 color="white"
                 fontSize={[20, 20, 25, 25]}
                 fontFamily="Raleway"
             >
-                <Flex alignItems="center" color="black" fontWeight="bold">
-                    Fale comigo!
-                </Flex>
             </Text>
             <Flex>
                 <Outlook

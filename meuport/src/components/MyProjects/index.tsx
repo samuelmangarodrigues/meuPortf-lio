@@ -153,7 +153,7 @@ function MyProjects() {
                                 display="flex"
                                 flexDirection="column"
                                 color="black"
-                                width={320}
+                                width={[320, 350, 400]}
                                 textAlign="center"
                                 alignSelf="center"
                                 borderRadius={5}

@@ -31,8 +31,8 @@ function AboutMe() {
                 Academy Brasil.
             </Text>
             <Text color="white">
-                A cada dia que passa estou evoluindo e crescendo como dev e
-                espero que goste do meu trabalho, fique a vontade em meu website
+                A cada dia que passa estou evoluindo e crescendo como desenvolvedor e
+                espero que goste do meu trabalho.Fique a vontade em meu website
                 e aproveite e dê uma olhada nos meus projetos!!
             </Text>
         </Flex>

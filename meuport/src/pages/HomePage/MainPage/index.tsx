@@ -1,4 +1,4 @@
-import { Flex, Heading, Img, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Img, Text} from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
 
 import AboutMe from "../../../components/AboutMe";
@@ -143,40 +143,42 @@ export function HomePage() {
                 flexDirection="column"
                 marginTop={5}
             >
-                <Text
-                    fontFamily="Arima"
-                    color="white"
-                    padding={2}
-                    fontSize={25}
-                >Certifado e Contatos</Text>
-                <Flex alignItems="center" flexDirection={["column", "row"]}>
+              
+                <Flex marginTop={10} alignItems="center" flexDirection={["column", "row"]}>
                     <Certificate />
                     <MyContact />
                 </Flex>
-
-                <Flex
-                    flexDirection="column"
-                    justifyContent="center"
-                    alignItems="center"
-                >
-                    <Text
-                        fontSize={12}
-                        color="white"
-                        fontFamily="Roboto"
-                        fontWeight="light"
-                    >
-                        Samuel Manga Rodrigues, 01/07/2022 &copy;
+                                
+                <Box py={10}>
+                    <Flex
+                        align={'center'}
+                        _before={{
+                        content: '""',
+                        borderBottom: '1px solid',
+                        borderColor:'gray.200',
+                        flexGrow: 1,
+                        mr: 8,
+                    }}
+                        _after={{
+                        content: '""',
+                        borderBottom: '1px solid',
+                        borderColor:'gray.200',
+                        flexGrow: 1,
+                        ml: 8,
+                    }}>
+                    <Img
+                        width={50}
+                        src="https://cdn-icons-png.flaticon.com/512/1910/1910037.png"
+                    />
+                    </Flex>
+                    <Text pt={6} fontSize={'sm'} textAlign={'center'} color="white">
+                        © Samuel Manga Rodrigues, 01/07/2022
                     </Text>
-                    <Text
-                        fontSize={12}
-                        color="white"
-                        fontFamily="Roboto"
-                        fontWeight="light"
-                    >
+                    <Text pt={6} fontSize={'sm'} textAlign={'center'} color="white">
                         Praça 13 de Maio, 669, Jardim Paraíso - Cássia-Mg
                         CEP:37980-000
                     </Text>
-                </Flex>
+                </Box>
             </Flex>
         </Flex>
     );

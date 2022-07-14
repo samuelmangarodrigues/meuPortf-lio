@@ -23,7 +23,7 @@ function Certificate() {
                         display="flex"
                         alignItems="center"
                     >
-                       Certificado de Front End Developer
+                       Certificado de Desenvolvedor Front End
                         <BiMedal color="yellow" size={15}/>
                     </Text>
                 </Link>

@@ -1,4 +1,4 @@
-# Esse é meu portfólio o intuito é mostrar um pouco sobre mim, alguns de meus projetos e tecnologias que uso para desenvolvimento👨‍💻
+# Esse é meu portfólio e o intuito é mostrar um pouco sobre mim, alguns de meus projetos e tecnologias que uso para desenvolvimento👨‍💻
 
 # Tecnologias: 
 Aplicação desenvolvida em Typescript, framework React.
